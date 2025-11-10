@@ -88,3 +88,6 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('Unexpected error: ' || SQLERRM);
 END;
 /
+    -- TESTING THE PROCEDURE
+SET SERVEROUTPUT ON;
+EXEC manage_bonuses;
